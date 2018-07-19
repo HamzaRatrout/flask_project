@@ -9,7 +9,8 @@ def randomq():
 	return (rand_item)
 @app.route("/")
 def hi():
-	return "MyPage"
+	return render_template("mypage.html")
+
 
 @app.route("/home")
 def load_page():
