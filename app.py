@@ -12,9 +12,9 @@ def hi():
 	return render_template("mypage.html")
 
 
-@app.route("/home")
+@app.route("/pick")
 def load_page():
-	return render_template("aboutme.html")
+	return render_template("mypage2.html")
 	
 if __name__ == "__main__":
 	app.run()
