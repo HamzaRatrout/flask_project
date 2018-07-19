@@ -15,6 +15,12 @@ def hi():
 @app.route("/pick")
 def load_page():
 	return render_template("mypage2.html")
-	
+@app.route("/about")
+def load_page1():
+	return render_template("aboutme.html")
+@app.route("/hob")
+def load_page2():
+	return render_template("hobbies.html")
+
 if __name__ == "__main__":
 	app.run()
