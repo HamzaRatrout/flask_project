@@ -21,6 +21,9 @@ def load_page1():
 @app.route("/hob")
 def load_page2():
 	return render_template("hobbies.html")
+@app.route("/aboutme2")
+def load_page():
+	return render_template("aboutme2.html")
 
 if __name__ == "__main__":
 	app.run()
