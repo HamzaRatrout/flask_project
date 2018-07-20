@@ -5,16 +5,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
   </head>
   <body>
-  <form>
+  <form action = "/sign" method = 'POST'>
   First name:<br>
   <input type="text" name="firstname"><br>
   Last name:<br>
   <input type="text" name="lastname"><br>
   Email address:<br>
-  <input type="text" name="email address"><br>
+  <input type="text" name="email"><br>
   A message:<br>
   <input type="text" name= "message"><br>
-  <a href= "/pick"> send</a> 
+  <input type="submit" name= "send"><br>
+  
+ {%block content%}{%endblock%}
 
 </form>
   </body>
