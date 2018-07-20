@@ -11,7 +11,7 @@ def randomq():
 def hi():
 	return render_template("mypage.html")
 @app.route("/form")
-def hi():
+def hi2():
 	return render_template("form.html")
 
 @app.route("/pick")
