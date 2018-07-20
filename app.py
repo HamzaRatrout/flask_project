@@ -11,7 +11,7 @@ def randomq():
 def hi():
 	return render_template("mypage.html")
 
-
+#change
 @app.route("/pick")
 def load_page():
 	return render_template("mypage2.html")
