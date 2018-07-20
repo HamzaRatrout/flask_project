@@ -10,7 +10,9 @@ def randomq():
 @app.route("/")
 def hi():
 	return render_template("mypage.html")
-
+@app.route("/form")
+def hi():
+	return render_template("form.html")
 
 @app.route("/pick")
 def load_page():
